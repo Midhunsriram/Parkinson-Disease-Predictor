@@ -18,7 +18,17 @@ Medication can help control the symptoms of Parkinson's.
 - HOG will be used to quantify our image. HOG will naturally be able to quantify how the directions of a both spirals and waves change.And furthermore, HOG will be able to capture if these drawings have more of a “shake” to them, as we might expect from a Parkinson’s patient.
 - Furthermore, Random Forest classifier can be trained on top of these extracted features.
 - The output can be shown with the help of a montage using OpenCV.
+- The output of training with WAVE dataset is -
+
+ ![image](https://user-images.githubusercontent.com/63549553/134583851-b7205f68-7823-4ce0-8e84-d997bb5db355.png)
 - 71.33% classification accuracy on the testing set, with a sensitivity of 69.33% (true-positive rate) and specificity of 73.33% (true-negative rate) was obtained with the WAVE data.
-- 83.33% accuracy on the testing set, with a sensitivity of 76.00% and specificity of 90.67% was obtained with the SPIRAL data.
+
+- The output of training with SPIRAL dataset is -
+
+ ![image](https://user-images.githubusercontent.com/63549553/134584175-71a0540c-7860-4a1e-8b07-4a0a76440ea2.png)
+- 80.67% accuracy on the testing set, with a sensitivity of 72.00% and specificity of 89.33% was obtained with the SPIRAL data.
 ### CONCLUSION 
 - It can be inferred that for automatically detecting Parkinson’s disease using a dataset of hand drawn images, the SPIRAL data is more useful.
+### ADDITIONAL RESOURCES
+- More info about HOGs can be found at --> https://customers.pyimagesearch.com/lesson-sample-histogram-of-oriented-gradients-and-car-logo-recognition/
+- Vector Normalizations in ML --> https://machinelearningmastery.com/vector-norms-machine-learning/
